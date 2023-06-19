@@ -1,0 +1,81 @@
+
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 45%);
+    --gradiontColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 36%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --grayText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --Bodycolor: rgb(240, 240, 240);
+    --cardBG: rgb(225, 225, 235);
+
+}
+
+.Register {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* background-image: url("/src/Assets/download.jpg"); */
+    background-size: cover;
+    background-position: center;
+    height: max-content +20px;
+    padding: 4rem;
+    
+    height: max-content;
+}
+
+.Register .div_Res{
+    width: 50%;
+
+    position: relative;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    backdrop-filter: blur(8px) ;
+  
+}
+.Register .side{
+    margin: 1.5rem;
+    padding: auto;
+}
+.Register h3{
+    justify-content: center;
+    text-align: center;
+    color: var(--whiteColorDeam);
+}
+
+.control-form {
+    border-radius: 1.5rem !important;
+}
+.Register .form-label{
+    color: black;
+    font-size: 16px;
+}
+.Register hr:not([size]) {
+    height: 3px;
+    color: red;
+}
+.Register label {
+    color: var(--whiteColorDeam);
+}
+
+.Register .text-muted{
+    color: var(--whiteColorDeam) !important;
+}
+.bt_function{
+
+display: flex;
+justify-content: space-between;
+}
+/* .mb-3{
+   
+        background: var(--inputColor);
+        border-radius: 3rem;
+}       
+             */

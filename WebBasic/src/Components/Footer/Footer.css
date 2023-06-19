@@ -1,0 +1,65 @@
+:root{
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 45%);
+    --gradiontColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%) );
+    --whiteColor: hsl(0, 0%,100%);
+    --blackColor: hsl(201, 33%, 36%);
+    --textColor: hsl(240,4%,36%);
+    --whiteColorDeam: hsl(0,0%,93%);
+    --grayText:rgb(190, 190,190);
+    --inputColor:rgb(239,239,239);
+    --Bodycolor:rgb(240,240,240);
+    --cardBG:rgb(225,225,235);
+  
+  }
+
+  .footer{
+        background: rgb(192, 232, 232);
+        position: relative;
+        padding: 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+
+  }
+  .icon2 {
+    font-size: 1.5rem;
+    /* kiểu con trỏ */
+    cursor: progress;
+  }
+
+  .setContent{
+    width: 100%;
+    height: max-content;
+    padding: 2rem;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    row-gap: 2rem;
+    z-index: 100;
+    gap:2rem;
+    border-radius: 1rem;
+    background: var(--Bodycolor);
+  }
+  .setContent .contactDiv{
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+  .setContent .contactDiv{
+    position: relative;
+    padding: 1rem 1rem 4 rem;
+    gap:2rem;
+    border-radius: 1rem;
+    background: var(--Bodycolor);
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
